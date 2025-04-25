@@ -1,0 +1,40 @@
+{
+  "name": "github-repo-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for fetching GitHub repository code",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "inspect": "tsc && npx @modelcontextprotocol/inspector node -- dist/index.js",
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --exec ts-node-esm index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "github",
+    "modelcontextprotocol",
+    "repository",
+    "code",
+    "fetch",
+    "ai",
+    "agent",
+    "mcp-server"
+  ],
+  "author": "Ryan Chan",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "octokit": "^3.1.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "bin": {
+    "github-repo-mcp": "./index.ts"
+  }
+}
