@@ -1,9 +1,11 @@
+#!/usr/bin/env node
+
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { Octokit } from "octokit";
 
-const octokit = new Octokit();
+const octokit = new Octokit({});
 
 function parseGitHubUrl(url: string) {
   const regex = /github\.com\/([^\/]+)\/([^\/]+)/;

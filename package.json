@@ -10,6 +10,10 @@
     "start": "tsc && node dist/index.js",
     "dev": "nodemon --exec ts-node-esm index.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ryan0204/github-repo-mcp"
+  },
   "keywords": [
     "mcp",
     "github",
@@ -35,6 +39,7 @@
     "typescript": "^5.3.3"
   },
   "bin": {
-    "github-repo-mcp": "./index.ts"
+    "github-repo-mcp": "./dist/index.js",
+    "mcp-github": "./dist/index.js"
   }
 }
