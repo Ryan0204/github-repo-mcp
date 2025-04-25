@@ -1,5 +1,7 @@
 # GitHub Repo MCP
 
+[![smithery badge](https://smithery.ai/badge/@Ryan0204/github-repo-mcp)](https://smithery.ai/server/@Ryan0204/github-repo-mcp)
+
 <p class="center-text">
   <strong>GitHub Repo MCP is an open-source MCP server that lets your AI assistants browse GitHub repositories, explore directories, and view file contents.</strong>
 </p>
@@ -33,7 +35,7 @@ Installing the server requires the following on your system:
 
 ### Step 1. Installation
 
-You can install and run GitHub Repo MCP using NPX or setting in mcp.json of your IDE:
+You can install and run GitHub Repo MCP using Smithery, NPX, or setting in mcp.json of your IDE:
 
 #### MacOS
 
@@ -86,6 +88,14 @@ which npx
     }
   }
 }
+```
+
+#### Installing via Smithery
+
+To install GitHub Repo MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Ryan0204/github-repo-mcp):
+
+```bash
+npx -y @smithery/cli install @Ryan0204/github-repo-mcp --client claude
 ```
 
 
