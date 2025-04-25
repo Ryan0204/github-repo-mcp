@@ -4,6 +4,10 @@
   <strong>GitHub Repo MCP is an open-source MCP server that lets your AI assistants browse GitHub repositories, explore directories, and view file contents.</strong>
 </p>
 
+<a href="https://glama.ai/mcp/servers/@Ryan0204/github-repo-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@Ryan0204/github-repo-mcp/badge" alt="github-repo-mcp MCP server" />
+</a>
+
 ## Table of contents
 
 <p class="center-text">
