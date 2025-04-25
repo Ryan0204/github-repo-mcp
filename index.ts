@@ -5,7 +5,9 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { z } from "zod";
 import { Octokit } from "octokit";
 
-const octokit = new Octokit({});
+const octokit = new Octokit({
+    auth: process.env.GITHUB_TOKEN || undefined,
+});
 
 function parseGitHubUrl(url: string) {
   const regex = /github\.com\/([^\/]+)\/([^\/]+)/;
