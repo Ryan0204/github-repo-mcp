@@ -37,14 +37,6 @@ Installing the server requires the following on your system:
 
 You can install and run GitHub Repo MCP using Smithery, NPX, or setting in mcp.json of your IDE:
 
-#### Installing via Smithery
-
-To install GitHub Repo MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Ryan0204/github-repo-mcp):
-
-```bash
-npx -y @smithery/cli install @Ryan0204/github-repo-mcp --client claude
-```
-
 #### MacOS
 
 ```bash
@@ -96,6 +88,14 @@ which npx
     }
   }
 }
+```
+
+#### Installing via Smithery
+
+To install GitHub Repo MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Ryan0204/github-repo-mcp):
+
+```bash
+npx -y @smithery/cli install @Ryan0204/github-repo-mcp --client claude
 ```
 
 
