@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "inspect": "tsc && npx @modelcontextprotocol/inspector node -- dist/index.js",
+    "inspect-live": "npx @modelcontextprotocol/inspector npx -- github-repo-mcp",
     "build": "tsc",
     "start": "tsc && node dist/index.js",
     "dev": "nodemon --exec ts-node-esm index.ts"
