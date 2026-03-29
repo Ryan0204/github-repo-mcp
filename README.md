@@ -25,6 +25,10 @@
 - 📝 View the content of code and text files
 - 📦 Easy installation via package manager
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/ryan0204-github-repo-mcp).
+
 ## Getting Started
 
 ### Prerequisites
