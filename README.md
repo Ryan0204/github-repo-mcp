@@ -1,4 +1,5 @@
 # GitHub Repo MCP
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/Ryan0204/github-repo-mcp)](https://archestra.ai/mcp-catalog/ryan0204__github-repo-mcp)
 
 [![LightNow capabilities](https://lightnow.ai/badge/io.github.ryan0204/github-repo-mcp)](https://lightnow.ai/servers/io.github.ryan0204/github-repo-mcp)
 
