@@ -1,6 +1,6 @@
 # GitHub Repo MCP
 
-[![smithery badge](https://smithery.ai/badge/@Ryan0204/github-repo-mcp)](https://smithery.ai/server/@Ryan0204/github-repo-mcp)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.ryan0204/github-repo-mcp)](https://lightnow.ai/servers/io.github.ryan0204/github-repo-mcp)
 
 <p class="center-text">
   <strong>GitHub Repo MCP is an open-source MCP server that lets your AI assistants browse GitHub repositories, explore directories, and view file contents.</strong>
